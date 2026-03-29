@@ -1,0 +1,1 @@
+This bootstrap folder for AWS will create the S3 bucket in the region specified in the .tfvars file (not included). This bucket will have versioning and encryption enabled. It also blocks public access.
