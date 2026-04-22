@@ -12,7 +12,7 @@ output "container_name" {
   value = azurerm_storage_container.state_container.name
 }
 
-output "primary_access_key" {
+output "access_key" {
   value     = azurerm_storage_account.state_sa.primary_access_key
   sensitive = true
 }
